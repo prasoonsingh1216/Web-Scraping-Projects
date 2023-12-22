@@ -76,7 +76,7 @@ for page in range(total_pages):
             break
 
 df = pd.DataFrame(data)
-df.to_csv('Project_1_TRY.csv', index=False)
+df.to_csv('Project_1.csv', index=False)
 
 if 'driver' in locals():
     driver.quit()
